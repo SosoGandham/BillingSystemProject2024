@@ -82,7 +82,6 @@ class BillingSystem{
 }
 // the psvm to create an instance of "billingSystem"
 public class Main {
-
     public static void main(String[] args) {
         BillingSystem billingSystem = new BillingSystem();
 
@@ -97,4 +96,3 @@ public class Main {
         inputReader.close(); //close the scanner
     }
 }
-
