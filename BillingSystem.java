@@ -40,7 +40,7 @@ class Account{
 }
 
 //Defines a public class "Billing System" which contains the actual customer information
-public class BillingSystem{
+class BillingSystem{
     private Map<String, Account> accountInfo;
 //Constructor for "Billing System" that initializes account info
     public BillingSystem(){
@@ -78,7 +78,11 @@ public class BillingSystem{
     }
         inputReader.close();//close the scanner
     }
-    // the psvm to create an instance of "billingSystem"
+
+}
+// the psvm to create an instance of "billingSystem"
+public class Main {
+
     public static void main(String[] args) {
         BillingSystem billingSystem = new BillingSystem();
 
@@ -92,7 +96,5 @@ public class BillingSystem{
         billingSystem.displayAccountInfo(accountNumber);
         inputReader.close(); //close the scanner
     }
-
 }
-
 
